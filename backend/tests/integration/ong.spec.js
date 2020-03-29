@@ -23,8 +23,6 @@ describe('ong', () => {
         uf: "PR"
       });
 
-    console.log(response.body);
-
     expect(response.body).toHaveProperty('id');
     expect(response.body.id).toHaveLength(8);
   });

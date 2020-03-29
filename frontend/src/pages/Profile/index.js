@@ -67,7 +67,7 @@ export default function Profile() {
         {incidents.map(incident => (
           <li key={incident.id}>
             <strong>Caso</strong>
-            <p>{incident.name}</p>
+            <p>{incident.title}</p>
 
             <strong>Descrição</strong>
             <p>{incident.description}</p>
